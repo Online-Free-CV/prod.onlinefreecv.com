@@ -3,9 +3,12 @@ name: Deploy build to GitHub Pages
 on:
   push:
     branches:
-      - main  # Change this to your main branch
+      - main # Change this to your main branch
 
 jobs:
+  permissions:
+    contents: write # To push a branch
+    pull-requests: write # To create a PR from that branch
   deploy:
     runs-on: ubuntu-latest
 
