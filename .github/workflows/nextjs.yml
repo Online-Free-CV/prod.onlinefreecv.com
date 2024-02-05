@@ -15,8 +15,8 @@ jobs:
 
       - name: Deploy build to GitHub Pages
         run: |
-          git config --global user.email "liaqatsaeed007@gmail.com"
-          git config --global user.name "YLiaqat Saeed"
+          git config --global user.email "mhassanamin94@gmail.com"
+          git config --global user.name "Hassan Amin"
           git checkout -b gh-pages
           git rm -rf .
           git checkout main build
