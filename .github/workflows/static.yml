@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: onlinefreecv.com
+      url: https://onlinefreecv.com/
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
